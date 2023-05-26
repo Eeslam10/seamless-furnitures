@@ -1,0 +1,781 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100%;
+    height: auto;
+}
+
+/* header */
+
+header > .background {
+    background: url(img/ddd.jpg);
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items:first baseline;
+    padding: 0 30px 0 30px;
+}
+
+nav div {
+    margin-top: .5rem;
+}
+
+header > .background > nav > div:first-child{
+    display: flex;
+    gap: 1rem;
+}
+
+header .background > nav div p.white-text {
+    color: white;
+    /* font-weight: bold; */
+}
+
+
+
+header > .background > nav > div:last-child > .cart {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header .background > nav .cart p:last-child {
+    color: white;
+    font-weight: bold;
+    background-color: #0c1e27;
+    padding: .3rem .6rem .3rem .6rem;
+    border-radius: 50%;
+}
+
+.fa-bed {
+    color: white;
+}
+
+.fa-bars {
+    color: white;
+}
+
+
+.center {  
+    text-align: center;
+}
+
+button#shopAll {
+    width: 150px;
+    padding: .5rem;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.center > p {
+    font-size: 100px;
+    width: 60%;
+    margin: auto;
+    color: #fff;
+    margin-top: 7rem;
+    line-height: 0.9;
+}
+
+/* aside */
+
+
+
+aside .image-one {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+aside .image-one > img:first-child {
+    width: 220px;
+    height: 200px;
+    position: relative;
+    top: 10rem;
+    left: 2rem;
+
+}
+
+aside .image-one img:nth-child(2){
+    width: 350px;
+    height: 280px;
+    margin-bottom: 2rem;
+
+}
+
+aside .image-one > img:last-child {
+    width: 170px;
+    height: 130px;
+    position: relative;
+    top: 15rem;
+    right: 9rem;
+}
+
+aside  img{
+    width: 300px;
+    height: 300px;
+}
+
+aside .creation > p:first-child {
+    font-size: 70px;
+    width: 47%;
+    line-height: 0.9;
+    margin: auto;
+}
+
+aside .creation > p:last-child {
+    width: 35%;
+    margin: 20px auto;
+    text-align:center;
+}
+
+.creation {
+    text-align: center;
+    /* margin: auto; */
+}
+
+.btn {
+    margin-top: 1rem;
+    padding: .5rem;
+    width: 170px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px wheat; 
+}
+
+aside .image-two img:first-child {
+    position: relative;
+    bottom: 12rem;
+    height: 280px;
+    width: 400px;
+}
+
+
+aside .image-two img:nth-child(2) {
+    float: right;
+    width: 190px;
+    height: 200px;
+    position: relative;
+    bottom: 15rem;
+}
+
+aside .image-two img:last-child{
+    float: right;
+    width: 350px;
+    height: 250px;
+}
+
+/* Products */
+
+.feature-products > p {
+    font-size: 40px;
+    text-align: center;
+    border-top: 1px solid wheat;
+    border-bottom: 1px solid wheat;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.feature-products .products {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.feature-products .products div {
+    display: flex;
+    gap: 2rem;
+}
+
+.feature-products .products > div > figure > img {
+    width: 300px;
+    height: 300px;
+}
+
+.feature-products .products > div > figure > figcaption {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-products > button {
+    width: 100%;
+    padding: 1.5rem;
+    border: 0;
+    margin: 1.5rem 0;
+    cursor: pointer;
+    background: transparent;
+    border-bottom: solid 1px wheat;
+    border-top: solid 1px wheat;
+    /* box-shadow: 0px -0px 2px  wheat;  */
+
+}
+
+/* NATIVE CONTAINER */
+
+.native-container {
+    width: 100%;
+    display: flex;
+}
+
+.native-container .native-text{
+    width: 50%;
+    background-color: #0c1e27;
+    padding: 9rem;
+}
+
+.native-container .native-text p:first-child {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 2rem;
+}
+
+.native-container .native-text p:nth-child(2) {
+    color: white;
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+.native-container .native-text button#view-product {
+    background: transparent;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.native-container .native-text button#view-product:hover {
+    text-decoration: underline;
+}
+
+.native-container .native-picture{
+    width: 50%;
+    background-image: url(img/IMG_20230523_140737.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* SHOWCASE */
+
+.showcase {
+    max-width: 100vw;
+    height: 100vh;
+    background-image: url(img/IMG_20230523_140901.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.showcase img {
+    width: 200px;
+    height: 220px;
+    
+}
+
+.showcase > .showcase-one{
+    width: 220px;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: .5rem;
+    position: relative;
+    top: 4rem;
+    left: 4rem;
+}
+
+.showcase > .showcase-two{
+    text-align: center;
+    float: right;
+    width: 220px;
+    background-color: whitesmoke;
+    padding: .7rem;
+    position: relative;
+    right: 4rem;
+    top: 2rem;
+}
+
+.showcase > .showcase-one > figure figcaption{
+    display: flex;
+    justify-content: space-between;
+    padding-top: .5rem;
+}
+.showcase > .showcase-two > figure figcaption{
+    display: flex;
+    justify-content: space-between;
+    padding-top: .5rem;
+    
+}
+
+/* section */
+
+section {
+    background-color:#0c1e27;
+    color: white;
+}
+
+/* lookbook */
+
+section .lookbook {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px #fff;
+}
+
+.lookbook-one {
+    width: 5%;
+}
+
+.lookbook-one > p {
+    transform: rotate(-90deg);
+    font-size: 25px;
+    position: relative;
+    top: 90%;
+}
+
+.lookbook-text {
+    width: 50%;
+    padding: 3rem;
+    border-left: solid 1px #fff;
+    border-right: solid 1px #fff;
+}
+
+.lookbook-text p:first-child {
+    margin: 0 0 15rem 0;
+    text-align: center;
+    font-size: 60px;
+}
+
+.lookbook-text p:last-child {
+    text-align: center;
+    width: 75%;
+    margin: auto;   
+}
+
+
+.lookbook-item {
+    width: 45%;
+    display: grid;
+    grid-template-rows: 3% 5% 72% 5% 5% 5% 5%;
+}
+
+.lookbook-item .item-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: solid 1px #fff;
+    border-bottom: solid 1px #fff;
+    padding: .7rem;
+} 
+
+.lookbook-item .item-image {
+    width: 90%;
+    background-color: lightgray;
+    padding: 1rem 0 1rem 0;
+    margin: 1.5rem auto;
+    text-align: center;
+}
+
+
+.lookbook-item .item-image figure figcaption {
+    display: flex;
+    justify-content: space-between;
+    margin: .5rem 3rem 2rem 3rem;      
+}
+
+
+.materials {
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+    border: solid 1px #fff;
+
+}
+
+section > p {
+    text-align: center;
+    font-size: 40px;
+    padding: 1rem;
+    border-bottom: solid 1px #fff;
+}
+
+/* lookbook-products */
+
+.lookbook-products {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lookbook-products-wrapper {
+    display: flex;
+    gap: 2rem;
+}
+
+.lookbook-products figure img {
+    width: 300px;
+    height: 300px;
+}
+
+.lookbook-products figure figcaption {
+    display: flex;
+    justify-content: space-between;
+    margin-top: .5rem;
+}
+
+.item-image figure figcaption > p {
+    color: black;
+
+}
+
+section button {
+    width: 100%;
+    padding: 1.3rem;
+    background: transparent;
+    color: #fff;
+    font-size: 17px;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    border: 0;
+    border-bottom: solid 1px #fff;
+    border-top: solid 1px #fff;
+}
+
+/* article */
+
+article {
+    background-color: ivory;
+}
+
+.every-detail {
+    display: flex;
+}
+
+.detail {
+    width: 5%;
+    border-right: solid 1px wheat;
+    height: 160vh;
+}
+
+.detail p {
+    transform: rotate(-90deg);
+    position: relative;
+    top: 90% ;
+    font-size: 27px;
+}
+
+.every {
+    width: 95%;
+    text-align: center;
+    /* height: 450px; */
+}
+
+.every-text {
+    height: 300px;
+    border-bottom: solid 1px wheat;
+}
+
+article .every-text p:first-child {
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+    font-size: 70px;
+}
+
+article .every .every-text p:nth-child(2){
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+article .every-text p:last-child{
+    width: 40%;
+    margin: auto;
+    margin-top: 1.5rem;
+    font-size: 17px;
+}
+
+.every-image {
+    max-width: 100vw;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.every-image > div:first-child{
+    width: 70%;
+}
+
+.every-image > div:first-child img{
+    width: 100%;
+    height: 540px;
+}
+
+.every-image > div:last-child{
+    width: 30%;
+}
+
+.every-image > div:last-child figure img {
+    width: 100%;
+    height: 268px;
+}
+
+.big-background {
+    background-image: url(img/IMG_20230523_140907.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.big-background figure img {
+    width: 270px;
+    height: 350px;
+    margin-top: 4rem;
+    
+}
+
+article p {
+    font-size: 50px;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+/*chicago*/
+
+.chicago {
+    width: 100%;
+    height: auto;
+    border-bottom: wheat;
+    display: flex;
+}
+
+.reader {
+    width: 5%;
+    border-right: solid 1px wheat;
+    border-top: solid 1px wheat;
+    border-bottom: solid 1px wheat;
+}
+
+.reader p {
+    transform: rotate(-90deg);
+    font-size: 23px;
+    position: relative;
+    top: 89%;
+}
+
+.apartment-container {
+    width: 95%;
+    display: flex;
+    border-top: solid 1px wheat;
+    border-bottom: solid 1px wheat;
+}
+
+.apartment {
+    width: 50%;
+    padding: 1rem;
+}
+
+.apartment p:first-child{
+    font-size: 65px;
+    line-height: 1;
+    margin-bottom: 4rem;
+    margin-top: 6rem;
+}
+
+.apartment p:nth-child(2) {
+    font-size: 19px;
+    margin-bottom: 4rem;
+}
+
+.apartment button {
+    border: 0;
+    background: transparent;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.apartment button:hover{
+    text-decoration: underline;
+}
+
+.apartment-image {
+    width: 50%;
+    padding: 1.5rem;
+}
+
+.apartment-image figure img {
+    width: 100%;
+    height: 550px;
+}
+
+.see-all-articles {
+    margin-top: 1.2rem;
+    text-align: center;
+    border-bottom: solid 1px wheat;
+}
+
+.see-all-articles button {
+    padding: .5rem;
+    background: transparent;
+    border: 0;
+    font-size: 18px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.see-all-articles button:hover {
+    text-decoration: underline;
+}
+
+
+/* three-article */
+
+body > div.three-articles {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 1rem;
+    border-bottom: solid 1px wheat;
+}
+
+body > div.three-articles > .read-article {
+    width: 30%;
+    margin-bottom: 2rem;
+    /* padding: 1rem; */
+}
+
+
+body > div.three-articles > div > p:nth-child(2){
+    font-size: 28px;
+    margin-bottom: 1.5rem;
+}
+body > div.three-articles > div > p:nth-child(3){
+    font-size: 19px;
+    margin-bottom: 1.5rem;
+}
+
+
+body > div.three-articles > div > button {
+    background: transparent;
+    font-size: 16px;
+    border: 0;
+}
+
+body > div.three-articles > div > button:hover {
+    text-decoration: underline;
+}
+
+
+body > div.three-articles > div > div > img {
+    width: 400px;
+    height: 350px;
+}
+
+
+/* our club */
+
+.our-club {
+    width: 100%;
+    margin-top: 2rem ;
+    padding: 3rem;
+}
+
+.our-club div {
+    width: 100%;
+    height: 550px;
+    background-image: url(img/IMG_20230523_140339.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-club div > p {
+    font-size: 60px;
+    width: 40%;
+    text-align: center;
+    color: #fff;
+}
+
+.our-club div > input {
+    background: transparent;
+    border: solid 1px white;
+    width: 290px;
+    padding: .7rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* footer */
+
+footer{
+    background-color: #0c1e27;
+    margin-top: 1.5rem;
+}
+
+footer .four-grid{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    color: #fff;
+}
+
+.grid {
+    border-top: solid 1px #fff;
+    border-bottom: solid 1px #fff;
+    border-right: solid 1px #fff;
+    padding: 1rem 0 0 3rem ;
+    line-height: 2;
+}
+
+.grid p:last-child {
+    margin-bottom: 1rem;
+}
+
+.islam {
+    border-bottom: solid 1px #fff;
+    /* height:400px ; */
+}
+
+.islam p {
+    font-size: 300px;
+    color: white;
+    text-align: center;
+    letter-spacing: 80px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.copyright {
+    border-bottom: solid 1px #fff;
+}
+
+.copyright p {
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.empty {
+    height: 20px;
+    background-color: #0c1e27;
+}
+
+
+
+

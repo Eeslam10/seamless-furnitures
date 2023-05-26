@@ -1,0 +1,505 @@
+@media screen and (max-width:512px) {   
+    
+/* header */
+   header > .background {
+    background: url(img/ddd.jpg);
+    width: 100%;
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    } 
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items:first baseline;
+    padding: 0 20px 0 20px;
+}
+
+header .background .center > p {
+    font-size: 23px;
+    margin-top: 4rem;
+}
+
+/* ASIDE  */
+
+
+/* image-one  */
+
+aside .image-one > img:first-child {
+    width: 40px;
+    height: 70px;
+    position: relative;
+    top: 16rem;
+    left: 0rem;
+    /* margin-top: 2rem; */
+
+}
+
+aside .image-one img:nth-child(2){
+    width: 150px;
+    height: 150px;
+    margin-bottom: 2rem;
+    position: relative;
+    right: 4rem;
+}
+
+aside .image-one > img:last-child {
+    width: 100px;
+    height: 70px;
+    position: relative;
+    top: 7rem;
+    right: 5px;
+}
+
+/* Creation */
+
+.creation {
+    width: 100%;
+    padding: 1rem;
+}
+
+aside .creation > p:first-child {
+    font-size: 30px;
+    width: 100%;
+    line-height: 1.3;
+}
+
+aside .creation > p:last-child {
+    width: 100%;
+    margin: 2rem auto; 
+}
+
+/* Image-two */
+
+.image-two {
+    margin-bottom: 1.5rem;
+}
+
+aside .image-two img:first-child {
+    position: relative;
+    bottom: 5rem;
+    height: 100px;
+    width: 70px;
+}
+
+
+aside .image-two img:nth-child(2) {
+    float: right;
+    width: 30px;
+    height: 100px;
+    position: relative;
+    bottom: 21rem;
+}
+
+aside .image-two img:last-child{
+    position: relative;
+    left: 2rem;
+    bottom: 1rem;
+    width: 130px;
+    height: 100px;
+}
+
+/* FEATURE PRODUCTS */
+
+.feature-products > p {
+    font-size: 30px;
+    padding: .5rem;
+}
+
+.feature-products .products {
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.feature-products .products div {
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.feature-products .products div:nth-child(2){
+    margin-top: 20px;
+}
+
+.feature-products .products > div > figure > img {
+    width: 150px;
+    height: 150px;
+}
+.feature-products .products > div > figure > figcaption {
+    flex-direction: column;
+    gap: 5px;
+}
+
+.feature-products > button{
+    margin: 0;
+}
+
+/* NATIVE CONTAINER */
+
+.native-container {
+    flex-direction: column-reverse;
+    padding: 1rem;
+    background-color: #0c1e27;
+}
+
+
+.native-container .native-text{
+    width: 100%;
+    padding: 0;
+    margin-top: 2rem;
+}
+
+.native-container .native-text p:first-child {
+    color: white;
+    font-size: 30px;
+}
+
+.native-container button {
+    margin-bottom: 2rem;
+}
+
+.native-container .native-picture{
+    width: 100%;
+    height: 320px;
+}
+
+/* SHOWCASE */
+
+.showcase{
+    height: 350px;
+}
+
+.showcase > .showcase-one{
+    display: none;
+}
+.showcase > .showcase-two{
+    display: none;
+}
+
+/* SECTION  */
+/* lookbook */
+
+.lookbook {
+    flex-direction: column;
+}
+
+.lookbook .lookbook-one {
+    display: none;
+}
+
+.lookbook-text {
+    width: 100%;
+    padding: 1rem;
+    border: 0;
+}
+
+.lookbook-text p:first-child {
+    margin: 1rem 0 2rem 0;
+    text-align: center;
+    font-size: 40px;
+}
+
+.lookbook-text p:last-child {
+    text-align: center;
+    width: 100%; 
+    margin: 0 0 2rem 0;  
+}
+
+.lookbook-item {
+    width: 100%;
+    border: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 1rem;
+}
+
+body > section > div.lookbook > div.lookbook-item > div:nth-child(1){
+    display: none;
+}
+
+body > section > div.lookbook > div.lookbook-item > div:nth-child(7){
+    display: none;
+}
+
+.lookbook-item .item-description {
+    display: none;
+}
+
+.lookbook-item .item-image{
+    width: 100%;
+    margin: 1rem auto ;
+    padding: 1rem;
+}
+
+.lookbook-item .item-image figure img {
+    width: 100%;
+}
+
+.lookbook-item .materials {
+    width: 100%;
+    border-bottom: solid 1px #fff;
+    border-top:  solid 1px#fff;
+}
+.lookbook-item .materials p {
+    font-size: 12px;
+}
+
+.lookbook-item .item-image figure figcaption {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 5rem 0;      
+}
+
+section > p {
+    font-size: 30px;
+}
+
+/* lookbook-products */
+
+.lookbook-products {
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem 0 0 0;
+}
+
+.lookbook-products-wrapper {
+    justify-content: center;
+    gap: .7rem;
+    margin-bottom: 1rem;
+    /* border: solid 1px #fff; */
+}
+
+.lookbook-products figure img {
+    width: 160px;
+    height: 150px;
+}
+
+.lookbook-products figure figcaption {
+    flex-direction: column;
+    gap: 1rem;
+    margin: 0;
+}
+
+/* article */
+article {
+    background-color: #fff;
+}
+
+.every-detail {
+    display: flex;
+}
+
+.detail {
+    display: none;
+}
+
+.every {
+    width: 100%;
+}
+
+.every-text {
+    height: auto;
+    border-bottom: 0;
+}
+
+article .every-text p:first-child {
+    margin-top: 3rem;
+    margin-bottom:0;
+    font-size: 30px;
+}
+
+article .every .every-text p:nth-child(2){
+    text-transform: uppercase;
+    font-size: 15px;
+    margin: 1rem 0 0 0;
+}
+
+article .every-text p:last-child{
+    width: 100%;
+    margin: 0 0 1rem 0;
+    font-size: 15px;
+    padding: 1rem;
+}
+
+.every-image {
+    flex-direction: column;
+    gap: 0;
+    padding: 0;
+}
+
+.every-image > div:first-child{
+    width: 100%;
+}
+
+.every-image > div:first-child img{
+    width: 100%;
+    height: 270px;
+}
+
+.every-image > div:last-child{
+    width: 100%;
+    display: flex;
+    gap: .5rem;
+    padding: .5rem;
+}
+
+.every-image > div:last-child figure img {
+    width: 100%;
+    height: 180px;
+}
+
+.big-background {
+    background-image: url(img/IMG_20230523_140907.jpg);
+    width: 100%;
+    height: 400px;
+}
+
+.big-background figure img {
+    display: none;
+}
+
+article p {
+    font-size: 30px;
+    text-align: center;
+    margin: 1rem 0;
+    padding: .5rem;
+}
+
+/* chicago */
+
+.chicago {
+    /* flex-direction: column; */
+}
+
+.reader {
+    display: none;
+}
+
+.apartment-container {
+    width: 100%;
+    flex-direction: column-reverse;
+    border-top: solid 1px lightslategray;
+    border-bottom: solid 1px lightslategray;
+}
+
+.apartment {
+    width: 100%;
+}
+
+.apartment-image {
+    width: 100%;
+    padding: .5rem;
+}
+
+.apartment-image figure img {
+    max-width: 100%;
+    height: 300px;
+    margin: .5rem 0 0 0;
+}
+
+.apartment p:first-child{
+    font-size: 30px;
+    line-height: 1;
+    margin: 1rem 0 1rem 0;
+}
+
+
+.apartment p:nth-child(2) {
+    font-size: 16px;
+    margin-bottom: 2rem;
+}
+
+.apartment button {
+    margin-bottom: 1rem;
+}
+
+.see-all-articles {
+    margin-top: 1rem;
+    border-bottom: solid 1px lightslategray;
+}
+
+/* three-article */
+
+body > div.three-articles {
+    flex-direction: column;
+    margin-top: 1rem;
+    border-bottom: none;
+    padding: 1rem;
+}
+
+body > div.three-articles > .read-article {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+
+body > div.three-articles > div > p:nth-child(2){
+    font-size: 21px;
+    margin-bottom: 2rem 0 1rem 0;
+}
+
+body > div.three-articles > div > p:nth-child(3){
+    font-size: 16px;
+    margin-bottom: 1.5rem;
+}
+
+body > div.three-articles > div > div > img {
+    max-width: 100%;
+    height: 300px;
+    margin: 0 0 .5rem 0;
+}
+
+/* our club */
+
+.our-club {
+    max-width: 100%;
+    margin: 0rem ;
+    padding: 0;
+}
+
+.our-club div {
+    max-width: 100%;
+    height: 500px;
+    background-image: url(img/IMG_20230523_140339.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-club div > p {
+    font-size: 35px;
+    width: 100%;
+}
+
+/* footer */
+
+footer{
+    background-color: #0c1e27;
+    margin:0;
+}
+
+footer .four-grid{
+    padding-top: 3rem;
+    grid-template-columns: 50% 50% ;
+    grid-template-rows: 50% 50% ;
+}
+
+.grid{
+    padding: 1rem 0 0 3rem ;
+    line-height: 2;
+    padding: 1rem 0 0 1rem;
+}
+
+.islam p {
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    letter-spacing: 10px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+}
